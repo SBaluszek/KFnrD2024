@@ -11,14 +11,13 @@ sapply(my_libs, library, character.only = TRUE)
 
 ```{r}
 data("diamonds")
-(diamonds %>% 
+diamonds %>% 
   ggplot() +
   geom_bin2d(mapping = aes(x = 4*x*y*z*pi/3, y = carat)) +
   scale_fill_gradientn(trans = "log10", colors = c("azure2", "cornflowerblue", "blue", "navy"), name = "Amount\nof cases") +
   scale_y_continuous(trans = "log10") +
   labs(x = "log<sub>10</sub>(volume)") +
-  theme_bw() + theme(axis.title.x = element_markdown())) %>% 
-  ggsave(file = "example.png", width = 1080, height = 720, units = "px", scale = 1.5)
+  theme_bw() + theme(axis.title.x = element_markdown())
 ```
 
 
