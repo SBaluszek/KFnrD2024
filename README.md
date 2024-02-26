@@ -3,6 +3,8 @@ Serdecznie witam wszystkich zainteresowanych! Chciałbym prosić Was o przygotow
 1. [Języka R](https://cran.r-project.org)
 2. [Rstudio](https://posit.co/download/rstudio-desktop/)
 3. Pakietów, z których będziemy korzystać, wykonując pierwszą komórkę w pliku `install.rmd`. Można to potwierdzić, wykonując drugą komórkę, która powinna produkować poniższy wykres:
+   
+   ![example](https://github.com/SBaluszek/KFnrD2024/blob/main/example.png)
 
 W razie kłopotów :bug: :arrow_right: :butterfly:, możecie odnieść się do [poradnika](https://rstudio-education.github.io/hopr/starting.html) lub skontaktować się ze mną.
 Powodzenia!
